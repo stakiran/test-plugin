@@ -1,0 +1,11 @@
+{
+  "name": "sta",
+  "description": "Claude Code プラグインのお試し。スキルを少しずつ追加していく実験用プラグイン。",
+  "version": "0.1.0",
+  "author": {
+    "name": "stakiran"
+  },
+  "homepage": "https://github.com/stakiran/test-plugin",
+  "repository": "https://github.com/stakiran/test-plugin",
+  "license": "MIT"
+}

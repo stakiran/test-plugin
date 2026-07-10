@@ -1,0 +1,14 @@
+{
+  "name": "stakiran",
+  "owner": {
+    "name": "stakiran"
+  },
+  "description": "stakiran のお試しプラグインを配布するマーケットプレイス。",
+  "plugins": [
+    {
+      "name": "sta",
+      "source": "./",
+      "description": "Claude Code プラグインのお試し。スキルを少しずつ追加していく実験用プラグイン。"
+    }
+  ]
+}
