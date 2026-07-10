@@ -68,6 +68,8 @@ plugin.json
 ## Q: ローカルで手軽にテストするには？
 Ans: `claude --plugin-dir (プラグインのディレクトリ)` で新しいセッションを立ち上げる
 
+## Q: プラグイン更新して公開し直した、これをインストールしてみても更新が入ってないんだが
+Ans: 更新時に plugin.json の version を上げる必要がある。でないと claude code が更新アリとみなさない
 
 ## Q: 今は test-plugin マーケットプレイスの中に sta プラグインがあるのだと思ってます。ここに sta2 プラグインを追加する場合、どうすればいいのですか？plugin2.json をつくればいいんですか？
 Ans: いいえ、常に .claude-plugin/xxxx.json の形で指定する
