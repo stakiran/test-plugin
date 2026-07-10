@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "sta",
-      "source": "./",
+      "source": "./plugins/sta",
       "description": "Claude Code プラグインのお試し。スキルを少しずつ追加していく実験用プラグイン。"
     }
   ]

@@ -62,3 +62,25 @@ plugin.json
   "license": "MIT"
 }
 ```
+
+## 開発者向けメモ
+
+## Q: ローカルで手軽にテストするには？
+Ans: `claude --plugin-dir (プラグインのディレクトリ)` で新しいセッションを立ち上げる
+
+
+## Q: 今は test-plugin マーケットプレイスの中に sta プラグインがあるのだと思ってます。ここに sta2 プラグインを追加する場合、どうすればいいのですか？plugin2.json をつくればいいんですか？
+Ans: いいえ、常に .claude-plugin/xxxx.json の形で指定する
+
+指定のパターン:
+
+- パターン1: 両方
+    - .claude-plugin/
+        - marketplace.json
+        - plugin.json
+- パターン2: マーケットプレイスのみ
+    - .claude-plugin/
+        - marketplace.json
+- パターン2: プラグインのみ
+    - .claude-plugin/
+        - plugin.json
